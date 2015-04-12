@@ -23,17 +23,17 @@ shinyUI(pageWithSidebar(
  
                 p("This is simple calculator app.  As you enter two numbers and
                   pick an operation, the app performs the calculation in real time",
-                  style = "font-family: 'baskerville'; font-si16pt"), 
+                  style = "font-family: 'Arial'; font-size:12pt"), 
  
                  p("Using this app - You enter a number in the first edit box, 
                    select the operation you would like to perform with the radio buttons
                    and enter the second number of your calculation.  As you make each
                   entry, the app will update the calculation to the right.",
-                 style = "font-family: 'baskerville'; font-si16pt"),
+                 style = "font-family: 'Arial'; font-size: 12pt"),
 			
 		p("People who might be interested in seeing how I did this
                   can review the code here:", 
-			  style = "font-family: 'baskerville'; font-si16pt"),
+			  style = "font-family: 'Arial'; font-size: 12pt"),
 			
 			a(href = "https://github.com/richdata/CourseraDataProducts",
 			  "Link to source code on GitHub")
